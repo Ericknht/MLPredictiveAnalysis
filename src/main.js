@@ -4,7 +4,7 @@ import {firestorePlugin} from 'vuefire'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/storage'
- 
+
 //import VueFire from 'vuefire'
 import router from './router/index'
 import vuetify from './plugins/vuetify';

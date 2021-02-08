@@ -4,23 +4,26 @@
       color="indigo"
       dark fixed app
     >
-      <v-toolbar-title>Fabrica de memes</v-toolbar-title>
+      <v-toolbar-title>Fabrica de Memes</v-toolbar-title>
     </v-app-bar>
-
-    <v-main>
-      <HelloWorld/>
-    </v-main>
+    <v-content>
+      <v-container fluid>
+        <v-layout>
+          <router-view />
+        </v-layout>
+      </v-container>
+    </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+//import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    //HelloWorld,
   },
 
   data: () => ({
